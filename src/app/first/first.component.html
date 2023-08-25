@@ -1,0 +1,13 @@
+<p>first works!</p>
+<ul>
+    <li *ngFor="let item of items" >{{item}}</li>
+</ul>
+
+<div>Two way data binding</div>
+<button style="margin-top: 10px;" (click)="items.push('new_item')" >Add new item</button>
+<div></div>
+<button style="margin-top: 10px;" (click)="countItems()" >Count items</button>
+
+<div style="margin-top: 10px;" >{{items.length}}</div>
+
+<button style="margin-top: 10px;" (click)="dummyService()" >Test service</button>

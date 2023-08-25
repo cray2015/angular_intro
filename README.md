@@ -1,3 +1,34 @@
+
+# Install NodeJs
+https://nodejs.org/en/download
+
+# Install Angular CLI
+npm install -g @angular/cli
+
+# Create New Project 
+ng new my-app
+
+
+# Unset node options  (just for VS code in mac from terminal)
+unset NODE_OPTIONS
+
+# Run app
+ng serve --open
+
+# To create environments - No need in this project as already created.
+ng g environments
+
+# Create new Component
+ng g c componentName
+
+# Create new module
+ng g m moduleName
+
+# Create new Service
+ng g s serviceName
+
+
+
 # MyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
